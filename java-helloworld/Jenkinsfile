@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/yourusername/hello-world-java.git'
+            }
+        }
+
+        stage('Compile') {
+            steps {
+                script {
+                    sh 'javac HelloWorld.java'
+                }
+            }
+        }
+
+        stage('Run') {
+            steps {
+                script {
+                    sh 'java HelloWorld'
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Java HelloWorld program executed successfully!'
+        }
+        failure {
+            echo 'The pipeline failed!'
+        }
+    }
+}
