@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/shivam-tayade/hello-world-java.git'
+                // Use SSH URL and specify the credentialsId
+                git credentialsId: '70794d5b-e35-40db-9ce6-73f016e30d28', url: 'git@github.com:shivam-tayade/hello-world-java.git'
             }
         }
 
