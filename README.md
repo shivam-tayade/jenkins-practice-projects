@@ -4,11 +4,8 @@ Are you looking forward to learn Jenkins right from Zero(installation) to Hero(B
 
 ## Installation on EC2 Instance
 
-YouTube Video ->
-https://www.youtube.com/watch?v=zZfhAXfBvVA&list=RDCMUCnnQ3ybuyFdzvgv2Ky5jnAA&index=1
+![Jenkins Integration Showcase](https://github.com/shivam-tayade/jenkins-practice-projects/raw/master/raw/20250425_0246_Jenkins_Integration_Showcase_simple_compose_01jsmtgfayfr5r9v4npfyt2xdj.png)
 
-
-![Screenshot 2023-02-01 at 5 46 14 PM](https://user-images.githubusercontent.com/43399466/216040281-6c8b89c3-8c22-4620-ad1c-8edd78eb31ae.png)
 
 Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more.
 
